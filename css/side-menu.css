@@ -1,0 +1,101 @@
+#side-menu {
+    position: absolute;
+    width: 220px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+#side-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    height: 536px;
+    left: 0%;
+    right: 0%;
+    top: 0px;
+}
+
+#sombra{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: -47.44%;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}
+
+#nome-evento {
+    position: static;
+    width: 220px;
+    height: 68px;
+    left: 0px;
+    top: 0px;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+#nome-evento p{
+    position: absolute;
+    left: 9.09%;
+    right: 10%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #EEEEEE
+}
+
+#nome-evento .fundo{
+    width: 220px;
+    height: 68px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
+
+}
+
+#logo-evento {
+    position: static;
+    width: 220px;
+    height: 258px;
+    left: 0px;
+    top: 68px;
+   
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+#logo-evento img {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    background: url(../Images/logo-evento.png);
+}
+
